@@ -122,38 +122,65 @@ a numeric vector. Standard deviation of body acceleration on the y axis in the t
 a numeric vector. Standard deviation of body acceleration on the z axis in the time-domain. Units=g
 ###tGravityAcceleration_stdX
 a numeric vector. Standard deviation of gravity acceleration on the x axis in the time-domain. Units=g
+###tGravityAcceleration_stdY
+a numeric vector. Standard deviation of gravity acceleration on the y axis in the time-domain. Units=g
+###tGravityAcceleration_stdZ
+a numeric vector. Standard deviation of gravity acceleration on the z axis in the time-domain. Units=g
+###tBodyAccelerationJerk_stdX
+a numeric vector. Standard deviation of body acceleration jerk on the x axis in the time-domain. Units=g
+###tBodyAccelerationJerk_stdY
+a numeric vector. Standard deviation of body acceleration jerk on the y axis in the time-domain. Units=g
+###tBodyAccelerationJerk_stdZ
+a numeric vector. Standard deviation of body acceleration jerk on the z axis in the time-domain. Units=g
+###tBodyAngularVelocity_stdX
+a numeric vector. Standard deviation of body angular velocity on the x axis in the time-domain. Units=radians/second
+###tBodyAngularVelocity_stdY
+a numeric vector. Standard deviation of body angular velocity on the y axis in the time-domain. Units=radians/second
+###tBodyAngularVelocity_stdZ
+a numeric vector. Standard deviation of body angular velocity on the z axis in the time-domain. Units=radians/second
+###tBodyAngularVelocityJerk_stdX
+a numeric vector. Standard deviation of body angular velocity jerk on the x axis in the time-domain. Units=radians/second
+###tBodyAngularVelocityJerk_stdY
+a numeric vector. Standard deviation of body angular velocity jerk on the y axis in the time-domain. Units=radians/second
+###tBodyAngularVelocityJerk_stdZ
+a numeric vector. Standard deviation of body angular velocity jerk on the z axis in the time-domain. Units=radians/second
+###tBodyAccelerationMagnitude_std
+a numeric vector. Standard deviation of the euclidean magnitude of body acceleration in the time-domain. Units=g
+###tGravityAccelerationMagnitude_std
+a numeric vector. Standard deviation of the euclidean magnitude of gravity acceleration in the time-domain. Units=g
+###tBodyAccelerationJerkMagnitude_std
+a numeric vector. Standard deviation of the euclidean magnitude of body acceleration jerk in the time-domain. Units=g
+###tBodyAngularVelocityMagnitude_std
+a numeric vector. Standard deviation of the euclidean magnitude of body angular velocity in the time-domain. Units=radians/second
+###tBodyAngularVelocityJerkMagnitude_std
+a numeric vector. Standard deviation of the euclidean magnitude of body angular velocity jerk in the time-domain. Units=radians/second
+###fBodyAcceleration_stdX
+a numeric vector. Standard deviation of the body acceleration on the x axis in the frequency-domain. Units=g
+###fBodyAcceleration_stdY
+a numeric vector. Standard deviation of the body acceleration on the y axis in the frequency-domain. Units=g
+###fBodyAcceleration_stdZ
+a numeric vector. Standard deviation of the body acceleration on the z axis in the frequency-domain. Units=g
+###fBodyAccelerationJerk_stdX
+a numeric vector. Standard deviation of the body acceleration jerk on the x axis in the frequency-domain. Units=g
+###fBodyAccelerationJerk_stdY
+a numeric vector. Standard deviation of the body acceleration jerk on the y axis in the frequency-domain. Units=g
+###fBodyAccelerationJerk_stdZ
+a numeric vector. Standard deviation of the body acceleration jerk on the z axis in the frequency-domain. Units=g
+###fBodyAngularVelocity_stdX
+a numeric vector. Standard deviation of the body angular velocity on the x axis in the frequency-domain. Units=radians/second
+###fBodyAngularVelocity_stdY
+a numeric vector. Standard deviation of the body angular velocity on the y axis in the frequency-domain. Units=radians/second
+###fBodyAngularVelocity_stdZ
+a numeric vector. Standard deviation of the body angular velocity on the z axis in the frequency-domain. Units=radians/second
+###fBodyAccelerationMagnitude_std
+a numeric vector. Standard deviation of the euclidean magnitude of body acceleration in the frequency-domain. Units=g
+###fBodyBodyAccelerationJerkMagnitude_std
+a numeric vector. Standard deviation of the euclidean magnitude of body-body acceleration jerk  in the frequency-domain. Units=g
+###fBodyBodyAngularVelocityMagnitude_std
+a numeric vector. Standard deviation of the euclidean magnitude of body-body angular velocity  in the frequency-domain. Units=radians/second
+###fBodyBodyAngularVelocityJerkMagnitude_std
+a numeric vector. Standard deviation of the euclidean magnitude of body-body angular velocity jerk  in the frequency-domain. Units=radians/second
 
-    \item{\code{tGravityAcceleration_stdY}}{a numeric vector}
-    \item{\code{tGravityAcceleration_stdZ}}{a numeric vector}
-    \item{\code{tBodyAccelerationJerk_stdX}}{a numeric vector}
-    \item{\code{tBodyAccelerationJerk_stdY}}{a numeric vector}
-    \item{\code{tBodyAccelerationJerk_stdZ}}{a numeric vector}
-    \item{\code{tBodyAngularVelocity_stdX}}{a numeric vector}
-    \item{\code{tBodyAngularVelocity_stdY}}{a numeric vector}
-    \item{\code{tBodyAngularVelocity_stdZ}}{a numeric vector}
-    \item{\code{tBodyAngularVelocityJerk_stdX}}{a numeric vector}
-    \item{\code{tBodyAngularVelocityJerk_stdY}}{a numeric vector}
-    \item{\code{tBodyAngularVelocityJerk_stdZ}}{a numeric vector}
-    \item{\code{tBodyAccelerationMagnitude_std}}{a numeric vector}
-    \item{\code{tGravityAccelerationMagnitude_std}}{a numeric vector}
-    \item{\code{tBodyAccelerationJerkMagnitude_std}}{a numeric vector}
-    \item{\code{tBodyAngularVelocityMagnitude_std}}{a numeric vector}
-    \item{\code{tBodyAngularVelocityJerkMagnitude_std}}{a numeric vector}
-    \item{\code{fBodyAcceleration_stdX}}{a numeric vector}
-    \item{\code{fBodyAcceleration_stdY}}{a numeric vector}
-    \item{\code{fBodyAcceleration_stdZ}}{a numeric vector}
-    \item{\code{fBodyAccelerationJerk_stdX}}{a numeric vector}
-    \item{\code{fBodyAccelerationJerk_stdY}}{a numeric vector}
-    \item{\code{fBodyAccelerationJerk_stdZ}}{a numeric vector}
-    \item{\code{fBodyAngularVelocity_stdX}}{a numeric vector}
-    \item{\code{fBodyAngularVelocity_stdY}}{a numeric vector}
-    \item{\code{fBodyAngularVelocity_stdZ}}{a numeric vector}
-    \item{\code{fBodyAccelerationMagnitude_std}}{a numeric vector}
-    \item{\code{fBodyBodyAccelerationJerkMagnitude_std}}{a numeric vector}
-    \item{\code{fBodyBodyAngularVelocityMagnitude_std}}{a numeric vector}
-    \item{\code{fBodyBodyAngularVelocityJerkMagnitude_std}}{a numeric vector}
-  }
-}
 ##Details
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a column on the text file.
