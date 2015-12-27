@@ -113,11 +113,16 @@ a numeric vector. Mean frequency of body-body angular velocity in the frequency-
 ###fBodyBodyAngularVelocityJerk_mean
 a numeric vector. Mean body-body angular velocity jerk in the frequency-domain. Units=radians/second
 ###fBodyBodyAngularVelocityJerk_meanFrequency
-a numeric vector}
-    \item{\code{tBodyAcceleration_stdX}}{a numeric vector}
-    \item{\code{tBodyAcceleration_stdY}}{a numeric vector}
-    \item{\code{tBodyAcceleration_stdZ}}{a numeric vector}
-    \item{\code{tGravityAcceleration_stdX}}{a numeric vector}
+a numeric vector. Mean frequency of body-body angular velocity jerk in the frequency-domain. Units=radians/second
+###tBodyAcceleration_stdX
+a numeric vector. Standard deviation of body acceleration on the x axis in the time-domain. Units=g
+###tBodyAcceleration_stdY
+a numeric vector. Standard deviation of body acceleration on the y axis in the time-domain. Units=g
+###tBodyAcceleration_stdZ
+a numeric vector. Standard deviation of body acceleration on the z axis in the time-domain. Units=g
+###tGravityAcceleration_stdX
+a numeric vector. Standard deviation of gravity acceleration on the x axis in the time-domain. Units=g
+
     \item{\code{tGravityAcceleration_stdY}}{a numeric vector}
     \item{\code{tGravityAcceleration_stdZ}}{a numeric vector}
     \item{\code{tBodyAccelerationJerk_stdX}}{a numeric vector}
@@ -150,8 +155,8 @@ a numeric vector}
   }
 }
 ##Details
-Features are normalized and bounded within [-1,1].
-- Each feature vector is a row on the text file.
+- Features are normalized and bounded within [-1,1].
+- Each feature vector is a column on the text file.
 - The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2).
 - The angular velocity units are rad/seg.
 
